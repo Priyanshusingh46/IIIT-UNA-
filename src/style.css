@@ -1,0 +1,224 @@
+.body{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+/* Heading CSS*/
+
+.HeadingImg{
+    background-image: url(./Images/iiituna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    background-blend-mode: darken;
+}
+.link{
+    display:flex;
+    color:white;
+}
+#Join{
+    text-decoration: none;
+    list-style: none;
+    padding:5px;
+    margin-left: 8px;
+    font-size:34px;
+    width: 180px;
+    height: 48px;
+    margin-top: -7px;
+}
+#Join:hover{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    border-radius: 10px;
+} 
+.Headingclub ul{
+    list-style: none;
+}
+.Headingclub a{
+    text-decoration: none;
+    list-style: none;
+    padding:5px;
+    margin-left: 8px;
+    font-size:34px;
+    width: 180px;
+    height: 48px;
+    color: white;
+    margin-left: 12px;
+}
+.Headingclub a:hover{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+ .Club .Headingclub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.HeadingImg .Dflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.HeadingImg ul{
+    list-style: none;
+}
+.HeadingImg a{
+    text-decoration: none;
+    list-style: none;
+    padding:5px;
+    margin-left: 8px;
+    font-size:34px;
+    width: 180px;
+    height: 48px;
+    color: white;
+    margin-right: 12px;
+}
+.HeadingImg a:hover{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.Headingclub ul{
+    list-style:none;
+}
+#classlogo-img{
+    width:32%;
+    border-radius: 50%;
+}
+.Dflex{
+    display:flex;
+    background-color: black;
+    opacity: 0.85;
+}
+/* About CSS*/
+#headingh1{
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+.changes{
+    display: flex;
+
+}
+.Text{
+    padding-left: 100px;
+    font-size: 22px;
+    padding-top: 25px;
+    margin-right: 100px;
+    line-height: 34px;
+}
+#ImageA{
+    width:750px;
+}
+
+/*Fotter*/
+.Fotter-outer{
+    display:flex;
+    background-color: #011c38;
+    color:white;
+}
+.fotterlink{   
+     margin-left: 160px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    line-height:  30px;
+}
+.fotteraddress{
+    margin-left: 92px;
+    line-height:  32px;
+    font-size:18px;
+}
+.span1{
+    font-size: 20px;
+}
+.map{
+    margin-left: 100px;
+    font-size: 18px;
+    margin-top: -4px;
+}
+.Fotter-outer{
+    margin-top:40px;
+}
+
+/* Fotter1 */
+.Fotter1{
+    background-color: #052e5a;
+    text-align: center;
+    color: white;
+    margin-top: -21px;
+}
+.Fotter1 h1{
+    font-size: 25px;
+    height: 52px;
+    text-align: center;
+    padding-top: 24px;
+    margin-top: 21px;
+}
+
+/* Club */
+#clubimg{
+    width:98px;
+    border-radius: 50%;
+    margin-left: 46px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.Headingclub{
+    display:flex;
+    background-color: black;
+}
+#Home{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    margin-left: 1050px;
+    font-size: 34px;
+    width: 95px;
+    height: 48px;
+    margin-right:15px;
+    margin-top:-5px;
+}
+.forceinfo{
+    line-height: 40px;
+    font-size: 24px;
+    margin-left: 66px;
+    margin-top: 56px;
+}
+#forceimg-img{
+    margin-top: 40px;
+    margin-left: 265px;
+    width: 525px;
+}
+/*Aavesh club*/
+#Aaveshimg1{
+    margin-top: 128px;
+    margin-left: -150px;
+    width: 340px;
+}
+.Aaveshinfo{
+    margin-top: 104px;
+    margin-left: 280px;
+    line-height: 38px;
+    font-size: 26px;
+}
+
+/* Datascience */
+.DataScience{
+    font-size: 24px;
+    margin-left: 64px;
+    line-height: 40px;
+    margin-top:102px;
+}
+#datascienceimg1{
+    width: 554px;
+    margin-top: 166px;
+    margin-left: 331px;
+}
+.Datescienceclub{
+    display:flex;
+}
