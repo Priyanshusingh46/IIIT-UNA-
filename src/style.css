@@ -222,3 +222,81 @@
 .Datescienceclub{
     display:flex;
 }
+/* Register*/
+.Register{
+    display:flex;
+    background-image:url("./Images/bg.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 910px;
+}
+.Rimage{
+margin-left: 166px;
+margin-top: 120px;
+
+}
+.Rimage:hover{
+    transform: scale(1.025);
+}
+.form{
+    margin-left: 222px;
+    margin-top: 242px
+}
+#name{
+    width:504px;
+    margin-bottom:22px;
+    font-size: 22px;
+    font-weight: bold;
+    border-style: calc();
+}
+#email{
+    width:504px;
+    margin-bottom:22px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#password{
+    width:504px;
+    font-size: 22px;
+    margin-bottom:22px;
+    font-weight: bold;
+}
+#cpassword{
+    width:504px;
+    margin-bottom:22px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#button1{
+    width: 137px;
+    margin-right: 76px;
+    margin-left: 65px;
+    border-radius: 22px;
+    height: 37px;
+    font-size: 18px;
+}
+#button3{
+    width: 137px;
+    margin-right: 76px;
+    margin-left: 157px;
+    border-radius: 22px;
+    height: 37px;
+    font-size: 18px;
+}
+#button1:hover{
+    background-color: rgb(160, 212, 72);
+}
+#button3:hover{
+    background-color: rgb(160, 212, 72);
+}
+#button2{
+    width: 139px;
+    margin-right: 52px;
+    margin-left: 5px;
+    border-radius: 30px;
+    height: 34px;
+    font-size: 18px;
+}
+#button2:hover{
+    background-color: rgb(160, 212, 72);
+}
